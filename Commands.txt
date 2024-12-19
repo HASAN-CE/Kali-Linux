@@ -1,0 +1,81 @@
+1. touch filename.extension: Creates a new empty file with the specified name and extension.
+2. whoami: Displays the current username of the logged-in user.
+3. passwd: Allows you to change the password for the current user.
+4. date: Shows the current date and time.
+5. uname: Provides details about the operating system, such as its name and version.
+6. clear: Clears the terminal screen.
+7. history: Displays a list of previously executed commands.
+8. sudo su: Switches to the root user (superuser) for administrative tasks.
+9. exit: Exits the current terminal session.
+10. apt-get update: Updates the list of available packages (requires root access).
+11. apt-get -f upgrade: Upgrades all installed packages to the latest versions (requires root access).
+12. sudo reboot now: Immediately reboots the system.
+13. sudo shutdown now: Immediately shuts down the system.
+14. pwd: Prints the current working directory path.
+15. ls: Lists all files and directories in the current directory.
+16. ls -a: Shows all files and directories, including hidden ones.
+17. ls -l: Displays detailed information about files in the current directory.
+18. ls -al: Shows detailed information about hidden files and directories.
+19. tree: Displays files and directories in a tree-like structure.
+20. cd: Changes the current directory.
+21. cd ..: Moves up one level in the directory hierarchy.
+22. mkdir directoryname: Creates a new directory.
+23. mkdir directoryname1 directoryname2: Creates multiple directories.
+24. rmdir directoryname: Removes an empty directory.
+25. rmdir directoryname1 directoryname2: Removes multiple empty directories.
+26. mv existingdirectory/filename rename: Moves or renames a file or directory.
+27. rm filename: Deletes a file.
+28. cal: Displays a simple calendar for the current month.
+29. cp filename directoryname: Copies a file to another directory.
+30. echo text: Prints text to the terminal.
+31. echo text > filename: Writes text to a file, creating it if it doesn't exist.
+32. cat filename: Displays the content of a file.
+33. mv filename directoryname: Moves a file to another directory.
+34. vi: Opens the Vi text editor for manual file editing.
+35. nano: Opens the Nano text editor, an easier-to-use text editor compared to Vi.
+36. free: Displays information about system memory usage.
+37. df: Shows disk space usage for all mounted filesystems.
+38. ps: Displays process IDs of running processes.
+39. ps aux: Shows detailed information about all running processes.
+40. more filename: Displays the content of a large file one page at a time.
+41. less filename: Similar to more but allows easier navigation through the file.
+42. man commandname: Displays the manual page for a command.
+43. uptime: Shows how long the system has been running.
+44. id: Prints user and group IDs of the current user.
+45. lsusb: Lists USB devices connected to the system.
+46. lspci: Displays information about PCI buses and devices connected to them.
+47. ulimit: Displays or sets resource limits for the shell or a specific process.
+48. wc filename: Counts lines, words, and characters in a file.
+49. lsblk: Lists information about storage devices on the system.
+50. tac filename: Displays a file in reverse order, line by line.
+51. od -b filename: Displays file contents in binary format.
+52. od -tx1 filename: Displays file contents in hexadecimal format.
+53. od -c filename: Displays file contents in ASCII (character) format.
+54. sleep timetohold: Pauses execution for a specified duration.
+55. ufw: Configures and manages the Uncomplicated Firewall (requires apt-get install ufw).
+56. head filename: Displays the first few lines of a file.
+57. tail filename: Displays the last few lines of a file.
+58. sort: Sorts lines in a text file alphabetically or numerically.
+59. lsof: Lists all open files on the system.
+60. cat filename | grep 'word': Displays lines in a file that match the specified word.
+61. ifconfig: Displays network interface configuration details.
+62. ip a: Displays detailed information about all network interfaces.
+63. ip addr: Displays network address information for all interfaces.
+64. netstat: Displays network connections, routing tables, interface statistics, masquerade connections, and multicast memberships.
+65. netstat -r: Displays the routing table.
+66. netstat -p: Shows active network connections and their process IDs.
+67. netstat -g: Displays multicast memberships.
+68. netstat -i: Shows interface statistics.
+69. ssh username@ip: Connects to a remote server over SSH.
+70. iwconfig: Displays and configures wireless network interfaces.
+71. nslookup url: Queries DNS information for a domain name.
+72. arp: Displays or modifies ARP cache entries.
+73. arp -a: Shows all current ARP table entries.
+74. route: Manipulates network routing tables.
+75. tcpdump: Captures and displays network packets.
+76. ping url: Tests network connectivity to a specified URL.
+77. ping -6 url: Tests network connectivity over IPv6.
+78. ping -4 url: Tests network connectivity over IPv4.
+79. ping ip: Tests network connectivity to a specified IP address.
+80. tracepath -6: Traces the path a packet takes to its destination over IPv6.
+81. tracepath -4: Traces the path a packet takes to its destination over IPv4.
